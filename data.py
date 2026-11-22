@@ -1,5 +1,5 @@
 import numpy
 
-x = numpy.random.uniform(0.0, 0.40, 10)
-
-print(x)
+def create_data():
+    x = numpy.random.uniform(0.0, 10.0, 100)
+    return x

@@ -1,0 +1,3 @@
+Kör main.py två gånger. Blir de första tio värdena likadana?Nej det blir de inte.
+Ändra antalet genererade värden från 100 till 20. Vad visar len(data)?.Den visar hur många världen som finns i res:20 förut stod det 100 nu står det 20.
+Ändra intervallet till intervallet 50-60. Ligger de genererade värdena ligger inom förväntat intervall? (återställ därefter till 100 värden mellan 0 och 100) Ja de ligger inom det förväntade intervallet 50-60.
