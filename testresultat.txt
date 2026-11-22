@@ -1,3 +1,13 @@
 Kör main.py två gånger. Blir de första tio värdena likadana?Nej det blir de inte.
 Ändra antalet genererade värden från 100 till 20. Vad visar len(data)?.Den visar hur många världen som finns i res:20 förut stod det 100 nu står det 20.
 Ändra intervallet till intervallet 50-60. Ligger de genererade värdena ligger inom förväntat intervall? (återställ därefter till 100 värden mellan 0 och 100) Ja de ligger inom det förväntade intervallet 50-60.
+Kör programmet och kontrollera att histogrammet öppnas. Ändra bins från 10 till 5 och sedan 20. Vad ändras i bilden och eventuellt i datamängden?Så på bilden när bins e 5 staplarna breda,när bins är 10 e staplarna längre och färre sifror och när bins är 20 är staplarna långa och smala.så ska jag skriva själva datamängden ändras inte bara siffrorna i terminalen för att det slupmässiga tal
+Generera 1 000 värden i stället för 100. Beskriv vad som förändras i histogrammets utseende.Antalet värde bli fler siffror och staplarna blir ihopfasta och mycket bredare.
+Ändra intervallet från 0-100 till 0-10. Vad händer med x-axeln? (återställ sen till 100 värden mellan 0 och 100 samt till 10 stapelintervall).När jag ändrade x-axeln från 0-100 till 0-10  förändrades x-axelns värde  till 0-10 värden.
+Hur visas fem identiska värden? Återställ sedan data = create_data() i main.py.När jag använde 5 identiska världen ändrades staplarna i histogrammet till 5.
+Vilken fil bestämmer vilka data som skapas?Det är filen i data.py som bestämmer vilken data som ska skapas.
+Vilken fil bestämmer hur diagrammet ser ut?Det är filen i diagram.py som bestämmer hur diagramet ska se ut.
+
+
+Varför skickas data till visa_histogram(data) i stället för att skapa en ny datamängd i diagram.py?För att diagrammet ska använda samma värden som skapades i main.py och inte skapa nya värden själv.
+Vad är skillnaden mellan att returnera data och att skriva ut data med print()?Att returnera data betyder att skicka tillbaka värden så att man kan använda dem i programmet,print() visar värdena på skärmen.
